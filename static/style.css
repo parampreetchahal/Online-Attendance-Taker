@@ -1,1 +1,61 @@
+body {
+    background-image: url(bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Time New Roman, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(10,10,10,0.3);
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+    f
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: white;
+}
+
+input[type="file"] {
+    margin-bottom: 50px;
+    font-size: 19px;
+    color: white;
+    margin-left: 80px;
+}
+
+button {
+    padding: 20px 30px;
+    background-color: #007BFF;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
 
