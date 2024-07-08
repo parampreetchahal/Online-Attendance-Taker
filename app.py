@@ -54,7 +54,7 @@ def process_csv(file):
         section_roll_df = pd.read_sql(query, engine)
         return section_roll_df
 
-    db_connection_string = 'mysql+pymysql://root:@127.0.0.1:3306/collegeid'
+    db_connection_string = 'mysql+pymysql://root:@127.0.0.1:3306/YOUR_DATABASE_NAME'
     full_names = df_filtered['Full Name'].tolist()
     section_roll_df = fetch_section_and_roll(full_names, db_connection_string)
     df_final = pd.merge(df_filtered[['Full Name']], section_roll_df, left_on='Full Name', right_on='name', how='left')
