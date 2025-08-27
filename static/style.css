@@ -1,8 +1,8 @@
 body {
-    background-image: url(bg4.jpg);
+    background-image: url("/static/bg4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Time New Roman, sans-serif;
+    font-family: "Times New Roman", sans-serif;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -23,7 +23,6 @@ body {
 h1 {
     margin-bottom: 20px;
     color: white;
-    f
 }
 
 form {
@@ -58,4 +57,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
